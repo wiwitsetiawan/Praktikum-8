@@ -1,0 +1,8 @@
+Pseudocode (rekursif dengan penjumlahan dua buah bilangan):
+
+fungsi faktorial adalah:integer suku
+Input: integer i sehingga i>= 0
+Output: [i + (i ke-1) + (i ke-2) + ... +i ke-suku]
+
+    1. jika i adalah 0, kembali 1
+    2. jika tidak, kembali [i × faktorial (suku-1)]
